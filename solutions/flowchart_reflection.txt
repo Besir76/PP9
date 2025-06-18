@@ -1,0 +1,13 @@
+Reflection – Task 2
+
+Start: Übergabe der Variable x an die Funktion.
+Initialize result = 1: Erste Codezeile in run_flowchart().
+Loop i = 1 to x: for-Schleife.
+Check i % 2 == 0:
+  - Ja → result += i
+  - Nein → result *= i
+Check result > 1000:
+  - Ja → result -= 100
+Increment i: wird durch die for-Schleife automatisch gemacht.
+Return result: printf("Result: %d\n", result);
+
